@@ -6,7 +6,7 @@ app = Dash(__name__)
 
 
 app.layout = html.Div([
-    html.H4('基因線上癌症發生統計'),
+    html.H4('癌症發生統計'),
     dcc.Graph(id="graph"),
     html.P("Names:"),
     dcc.Dropdown(id='names',
