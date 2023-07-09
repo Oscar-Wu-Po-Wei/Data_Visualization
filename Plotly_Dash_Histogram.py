@@ -240,7 +240,7 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 
 # App layout
 app.layout = dmc.Container([
-    dmc.Title('基因線上癌症發生統計', color="blue", size="h3"),
+    dmc.Title('癌症發生統計', color="blue", size="h3"),
     dmc.RadioGroup(
             [dmc.Radio(i, value=i) for i in  ['性別', '縣市別', '癌症別']],
             id='my-dmc-radio-item',
